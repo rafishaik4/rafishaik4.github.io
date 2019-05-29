@@ -1,0 +1,34 @@
+:root{
+	font-size: 25px;
+}
+body{
+	margin: o;
+	padding: 0;
+	background-color: lightgray;
+}
+
+.parent1{
+	text-align: center;
+	font-size: 2em;
+	background-color: gray;
+	font-family: system-ui;
+	font-style: bold;
+	border-style: solid;
+	border-color: lightblue;
+	margin: 1em 1em 1em 1em;
+	padding: 1em 1 em 1em 1em;
+}
+.paragraph{
+	font-family: calibri;
+}
+/*media queries start here*/
+@media screen and (max-width:500px){
+.parent1{
+	background-color: dodgerblue;
+	font-style: italic;
+
+}
+
+
+}
+
